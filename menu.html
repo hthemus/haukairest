@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Menu - Haukai Restaurant</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+      <div class="container">
+        <!--Logo/Brand Icon-->
+        <a href="/index.html" class="navbar-brand">Haukai Restaurant</a>
+        <!--Hamburger Menu-->
+        <button 
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Link buttons that go into Hamburger menu-->
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="/reservations.html" class="nav-link">Make a Booking</a>
+            </li>
+            <li class="nav-item">
+              <a href="/index.html#contact" class="nav-link">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="/index.html#location" class="nav-link">Location</a>
+            </li>
+            <li class="nav-item">
+              <a href="/index.html#hours" class="nav-link">Dining Hours</a>
+            </li>
+            <li class="nav-item">
+              <a href="#staff" class="nav-link bi bi-lock"> Staff Portal</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Question Accordion-->
+    <section id="menu" class="p-5">
+      <div class="container">
+        <h2 class="text-center my-4">Menu</h2>
+        <div class="accordion accordion-flush" id="menu">
+          <!--Appetiser Heading-->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#menu-one" tabindex="1">
+                Appetisers
+              </button>
+            </h2>
+            <div id="menu-one" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#menu">
+              <div class="accordion-body">
+                <!--Appetiser Menu Boxes-->
+                <section id="appetisers" class="p-5 bg-secondary">
+                  <div class="container">
+                    <h2 class="text-center text-white">Our Appetiser Items</h2>
+                    <p class="lead text-center text-white mb-5">
+                      Something to get you started
+                    </p>
+                    <div class="row g-4 justify-content-between">
+                      <!--Appetiser 1-->
+                      <div class="col-md-6 col-lg-2" tabindex="1">
+                        <div class="card bg-light">
+                          <div class="card-body text-center">
+                            <img src="images/menu/rewenabread.webp" class="rounded-circle mb-3 w-75" alt="">
+                            <h3 class="card-title mb-3">Rewena Bread</h3>
+                            <p class="card-text">Traditional Maori Bread.</p>
+                            <p class="card-text fw-bold">10</p>
+                          </div>
+                        </div>
+                      </div>
+                      <!--Appetiser 2-->
+                      <div class="col-md-6 col-lg-2 h-100" tabindex="1">                        
+                        <div class="card bg-light">
+                          <div class="card-body text-center">
+                            <img src="images/menu/pauafritters.jpg" class="rounded-circle mb-3 w-75" alt="">
+                            <h3 class="card-title mb-3">Paua Fritters</h3>
+                            <p class="card-text">Finely diced pieces of paua, served with a side salad and horopito dressing.</p>
+                            <p class="card-text fw-bold">16</p>
+                          </div>
+                        </div>
+                      </div>
+                      <!--Appetiser 3-->
+                      <div class="col-md-6 col-lg-2 h-100" tabindex="1">                        
+                        <div class="card bg-light">
+                          <div class="card-body text-center">
+                            <img src="images/menu/rawfish.jpeg" class="rounded-circle mb-3 w-75" alt="">
+                            <h3 class="card-title mb-3">Raw Fish</h3>
+                            <p class="card-text">Dried snapper fish marinated in coconut cream, served with tomatoes and spring onions.</p>
+                            <p class="card-text fw-bold">22</p>
+                          </div>
+                        </div>
+                      </div>
+                      <!--Appetiser 4-->
+                      <div class="col-md-6 col-lg-2 h-100" tabindex="1">                        
+                        <div class="card bg-light">
+                          <div class="card-body text-center">
+                            <img src="images/menu/poachedsalmon.png" class="rounded-circle mb-3 w-75" alt="">
+                            <h3 class="card-title mb-3">Poached Salmon</h3>
+                            <p class="card-text">Salmon poached in an orange and pistachio glaze, served with rewena bread.</p>
+                            <p class="card-text fw-bold">10</p>
+                          </div>
+                        </div>
+                      </div>
+                      <!--Appetiser 5-->
+                      <div class="col-md-6 col-lg-2 h-100" tabindex="1">
+                        <div class="card bg-light">
+                          <div class="card-body text-center">
+                            <img src="images/menu/seafoodbasket.webp" class="rounded-circle mb-3 w-75" alt="">
+                            <h3 class="card-title mb-3">Seafood Basket</h3>
+                            <p class="card-text">Crumbed mussels, salt and pepper squid, crumbed hoki bites and garlic prawns.</p>
+                            <p class="card-text fw-bold">25</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+          <!--Close Appetisers-->
+          <!--Mains-->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#menu-two" tabindex="2">
+                Mains
+              </button>
+            </h2>
+            <div id="menu-two" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#menu">
+              <div class="accordion-body">
+                <section id="appetisers" class="p-5 bg-secondary">
+                  <div class="container">
+                    <h2 class="text-center text-white">Mains</h2>
+                    <p class="lead text-center text-white mb-5">
+                      Our selection of Main Meals
+                    </p>
+                    <div class="row g-4 justify-content-between">
+                      <!--Main 1-->
+                      <div class="col-md-6 col-lg-4 h-100" tabindex="6">
+                        <div class="card bg-light">
+                          <div class="card-body text-center">
+                            <img src="images/menu/fishoftheday.webp" class="rounded-circle mb-3 w-75" alt="">
+                            <h3 class="card-title mb-3">Fish of the Day</h3>
+                            <p class="card-text">Beer-battered fish and kumara fries, served with a side salad and homemade tartare.</p>
+                            <p class="card-text fw-bold">25</p>
+                          </div>
+                        </div>
+                      </div>
+                      <!--Main 2-->
+                      <div class="col-md-6 col-lg-4 h-100" tabindex="7">
+                        <div class="card bg-light">
+                          <div class="card-body text-center">
+                            <img src="images/menu/musselsandscallops.jpg" class="rounded-circle mb-3 w-75" alt="">
+                            <h3 class="card-title mb-3">Mussels and Scallops</h3>
+                            <p class="card-text">Beer-battered fish and kumara fries, served with a side salad and homemade tartare.</p>
+                            <p class="card-text fw-bold">25</p>
+                          </div>
+                        </div>
+                      </div>
+                      <!--Main 3-->
+                      <div class="col-md-6 col-lg-4 h-100" tabindex="8">
+                        <div class="card bg-light">
+                          <div class="card-body text-center">
+                            <img src="images/menu/seafoodchowder.png" class="rounded-circle mb-3 w-75" alt="">
+                            <h3 class="card-title mb-3">Seafood Chowder</h3>
+                            <p class="card-text">Creamy chowder filled with tarakihi, prawn, hoki, scallops and mussels, served with flatbread.</p>
+                            <p class="card-text fw-bold">30</p>
+                          </div>
+                        </div>
+                      </div>
+                      <!--Main 4-->
+                      <div class="col-md-6 col-lg-4 h-100" tabindex="9">
+                        <div class="card bg-light">
+                          <div class="card-body text-center">
+                            <img src="images/menu/porkbelly.webp" class="rounded-circle mb-3 w-75" alt="">
+                            <h3 class="card-title mb-3">Pork Belly</h3>
+                            <p class="card-text">Slow-cooked pork belly served on a bed of apple slaw with roasted kumara and crispy noodles.</p>
+                            <p class="card-text fw-bold">30</p>
+                          </div>
+                        </div>
+                      </div>
+                      <!--Main 5-->
+                      <div class="col-md-6 col-lg-4 h-100" tabindex="10">
+                        <div class="card bg-light">
+                          <div class="card-body text-center">
+                            <img src="images/menu/lambsteak.webp" class="rounded-circle mb-3 w-75" alt="">
+                            <h3 class="card-title mb-3">Lamb Steak</h3>
+                            <p class="card-text">New Zealand lamb coated in a kawakawa crumb, served with Dijon-mustard-glazed carrots, roasted butternut squash and mushroom jus.</p>
+                            <p class="card-text fw-bold">33</p>
+                          </div>
+                        </div>
+                      </div>
+                      <!--Main 6-->
+                      <div class="col-md-6 col-lg-4 h-100" tabindex="11">
+                        <div class="card bg-light">
+                          <div class="card-body text-center">
+                            <img src="images/menu/venison.webp" class="rounded-circle mb-3 w-75" alt="">
+                            <h3 class="card-title mb-3">Venison</h3>
+                            <p class="card-text">Venison crusted with Horopito, served with glazed plums, cabbage salad and red wine jus.</p>
+                            <p class="card-text fw-bold">33</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+          <!--Close Mains-->
+          <!--Desserts-->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#menu-three">
+                Desserts
+              </button>
+            </h2>
+            <div id="menu-three" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#menu">
+              <div class="accordion-body">
+                <section id="appetisers" class="p-5 bg-secondary">
+                  <div class="container">
+                    <h2 class="text-center text-white">Desserts</h2>
+                    <p class="lead text-center text-white mb-5">
+                      Something Sweet!
+                    </p>
+                    <div class="row g-4 justify-content-between">
+                      <!--Dessert 1-->
+                      <div class="col-md-6 col-lg-3 h-100" tabindex="12">
+                        <div class="card bg-light">
+                          <div class="card-body text-center">
+                            <img src="images/menu/icecream.webp" class="rounded-circle mb-3 w-75" alt="">
+                            <h3 class="card-title mb-3">Kapiti Ice Cream</h3>
+                            <p class="card-text">Check for daily specials.</p>
+                            <p class="card-text fw-bold">10</p>
+                          </div>
+                        </div>
+                      </div>
+                      <!--Dessert 2-->
+                      <div class="col-md-6 col-lg-3 h-100" tabindex="13">
+                        <div class="card bg-light">
+                          <div class="card-body text-center">
+                            <img src="images/menu/steamedpudding.webp" class="rounded-circle mb-3 w-75" alt="">
+                            <h3 class="card-title mb-3">Steamed Pudding</h3>
+                            <p class="card-text">Golden-syrup-flavoured steamed pudding, served with vanilla ice cream.</p>
+                            <p class="card-text fw-bold">12</p>
+                          </div>
+                        </div>
+                      </div>
+                      <!--Dessert 3-->
+                      <div class="col-md-6 col-lg-3 h-100" tabindex="14">
+                        <div class="card bg-light">
+                          <div class="card-body text-center">
+                            <img src="images/menu/minipav.webp" class="rounded-circle mb-3 w-75" alt="">
+                            <h3 class="card-title mb-3">Mini Pavlova</h3>
+                            <p class="card-text">Mini pavlova, served with kawakawa and lemon-infused cream and fresh fruit.</p>
+                            <p class="card-text fw-bold">16</p>
+                          </div>
+                        </div>
+                      </div>
+                      <!--Dessert 4-->
+                      <div class="col-md-6 col-lg-3 h-100" tabindex="15">
+                        <div class="card bg-light">
+                          <div class="card-body text-center">
+                            <img src="images/menu/banoffeepie.webp" class="rounded-circle mb-3 w-75" alt="">
+                            <h3 class="card-title mb-3">Banoffee Pie</h3>
+                            <p class="card-text">Toffee, fresh bananas and fresh cream.</p>
+                            <p class="card-text fw-bold">16</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+          <!--Close Desserts-->
+          <!--Beverages-->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#menu-four">
+                Beverages
+              </button>
+            </h2>
+            <div id="menu-four" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#menu">
+              <div class="accordion-body">
+                <section id="appetisers" class="p-5 bg-secondary">
+                  <div class="container">
+                    <h2 class="text-center text-white">Beverages</h2>
+                    <p class="lead text-center text-white mb-5">
+                      Select from our range of fine wines, beers, ciders or other non-alcoholic beverages.
+                    </p>
+                    <div class="row g-4 justify-content-between">
+                      <!--Beverage 1-->
+                      <div class="col-md-6 col-lg-3 h-100" tabindex="">
+                        <div class="card bg-light">
+                          <div class="card-body text-center">
+                            <img src="images/menu/redwine.webp" class="rounded-circle mb-3 w-75" alt="16">
+                            <h3 class="card-title mb-3">Red Wines</h3>
+                            <p class="card-text">Terrace Edge Pinot Noir, 2012, Wairarapa <span class="card-text fw-bold">53/13</span></p>
+                            <p class="card-text">Altitude Pinot Noir, 2010, Marlborough <span class="card-text fw-bold">64/15</span></p>
+                            <p class="card-text">Greystone Pinot Noir, 2012, Wairarapa <span class="card-text fw-bold">73/17</span></p>
+                            <p class="card-text">Terrace Edge, Syrah, 2012, Wairarapa <span class="card-text fw-bold">53/13</span></p>
+                            <p class="card-text">Altitude Syrah, 2010, Marlborough <span class="card-text fw-bold">64/15</span></p>
+                            <p class="card-text">Greystone Syrah, 2012, Wairarapa <span class="card-text fw-bold">73/17</span></p>
+                            <p class="card-text">Pegasus Bay Merlot, 2013, Waipara <span class="card-text fw-bold">65/14</span></p>
+                            <p class="card-text">Pegasus Bay Pinot Noir, 2013, Waipara <span class="card-text fw-bold">110</span></p>
+                          </div>
+                        </div>
+                      </div>
+                      <!--Beverage 2-->
+                      <div class="col-md-6 col-lg-3 h-100" tabindex="">
+                        <div class="card bg-light">
+                          <div class="card-body text-center">
+                            <img src="images/menu/whitewine.webp" class="rounded-circle mb-3 w-75" alt="17">
+                            <h3 class="card-title mb-3">White Wines</h3>
+                            <p class="card-text">Spade Oak Pinot Gris, 2011, Gisborne <span class="card-text fw-bold">40/10</span></p>
+                            <p class="card-text">Maude Pinot Gris, 2017, Otago <span class="card-text fw-bold">49.50/11</span></p>
+                            <p class="card-text">Charles Wiffen Chardonnay, 2013, Otago <span class="card-text fw-bold">48/11</span></p>
+                            <p class="card-text">Amisfield, Riesling, 2016, Otago <span class="card-text fw-bold">53/12</span></p>
+                            <p class="card-text">Lamont Riesling, 2010, Otago <span class="card-text fw-bold">57/13</span></p>
+                            <p class="card-text">Elephant Hill Viognier, 2013, Hawke&#x27;s Bay <span class="card-text fw-bold">55/12</span></p>
+                            <p class="card-text">Folium Sauvignon Blanc, 2011, Marlborough <span class="card-text fw-bold">52/11</span></p>
+                            <p class="card-text">Billecart-Salmon Brut Reserve, France <span class="card-text fw-bold">120</span></p>
+                          </div>
+                        </div>
+                      </div>
+                      <!--Beverage 3-->
+                      <div class="col-md-6 col-lg-3 h-100" tabindex="">
+                        <div class="card bg-light">
+                          <div class="card-body text-center">
+                            <img src="images/menu/beerandcider.webp" class="rounded-circle mb-3 w-75" alt="18">
+                            <h3 class="card-title mb-3">Beer and Cider</h3>
+                            <p class="card-text">Garage Project Range <span class="card-text fw-bold">11</span></p>
+                            <p class="card-text">Tuatara Range <span class="card-text fw-bold">11</span></p>
+                            <p class="card-text">Panhead Range <span class="card-text fw-bold">10</span></p>
+                            <p class="card-text">Coopers Ale <span class="card-text fw-bold">10</span></p>
+                            <p class="card-text">Heineken <span class="card-text fw-bold">11</span></p>
+                            <p class="card-text">Moa Cider <span class="card-text fw-bold">10</span></p>
+                            <p class="card-text">Crooked Cider <span class="card-text fw-bold">10</span></p>
+                          </div>
+                        </div>
+                      </div>
+                      <!--Beverage 4-->
+                      <div class="col-md-6 col-lg-3 h-100" tabindex="">
+                        <div class="card bg-light">
+                          <div class="card-body text-center">
+                            <img src="images/menu/softdrink.webp" class="rounded-circle mb-3 w-75" alt="19">
+                            <h3 class="card-title mb-3">Non-Alcoholic Beverages</h3>
+                            <p class="card-text">Mineral water <span class="card-text fw-bold">4.00</span></p>
+                            <p class="card-text">Soft drinks <span class="card-text fw-bold">4.00</span></p>
+                            <p class="card-text">Juice <span class="card-text fw-bold">4.00</span></p>
+                            <p class="card-text">Coffee <span class="card-text fw-bold">4.50</span></p>
+                            <p class="card-text">Tea <span class="card-text fw-bold">3.50</span></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+          <!--Close Beverages-->
+        </div>
+      </div>
+      <!--Images mostly webp, but unable to convert all-->
+    </section>
+    <!--Footer-->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+      <div class="container">
+        <p class="lead">Copyright &copy; 2023 Haukai Restaurant</p>
+        <a href="#" class="position-absolute bottom-0 end-0 p-5">
+          <i class="bi bi-arrow-up-circle h1"></i>
+        </a>
+      </div>
+    </footer>
+    <!--script to make js modals work-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
