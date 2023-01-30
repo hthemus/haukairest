@@ -15,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="protected-style.css">
     <title>Staff Portal - Haukai Restaurant</title>
   </head>
   <body>
@@ -23,20 +23,51 @@
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
       <div class="container">
         <!--Logo/Brand Icon-->
-        <a href="/web/index.php" class="navbar-brand">Haukai Restaurant</a>
+        <a href="/index.php" class="navbar-brand">Haukai Restaurant</a>
       </div>
     </nav>
     <!--Staff Info-->
-    <section class="bg-secondary text-light mt-5 p-lg-0 pt-lg-5 text-center text-sm-start"> <!--Padding 5, but for large (lg) screens or smaller there is padding 5 on top but everywhere else has 0 padding; text is aligned at the start/left for anything larger than a small screen (sm), before which is aligned center-->
+    <section class="bg-secondary text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"> <!--Padding 5, but for large (lg) screens or smaller there is padding 5 on top but everywhere else has 0 padding; text is aligned at the start/left for anything larger than a small screen (sm), before which is aligned center-->
       <div class="container">
-        <div class="d-sm-flex align-items-center justify-content-between">
+        <div class="d-md-flex">
           <div>
             <h1>Staff Page</h1>
-            <p class="lead my-4 d-sm-flex align-items-center justify-content-around">
-              <p><span class="fw-bold">Name: </span>Benjamin Merritt</p>
-              <p><span class="fw-bold">Phone: </span>0212345678</p>
-            </p>
-            <iframe src="https://calendar.google.com/calendar/embed?src=c094faa229f1ecac58cbebd579731b4f906a9fbb058644024affe1b4ab59264d%40group.calendar.google.com&ctz=Pacific%2FAuckland" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            <p class="lead d-md-flex align-items-center justify-content-between">
+              <table class="table table-hover table-dark">
+                <thead>
+                  <tr>
+                    <th scope="col">Staff #</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Phone</th>
+                    <th scope="col">Roster Link</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">001</th>
+                    <td>Benjamin</td>
+                    <td>Merritt</td>
+                    <td>021 785 1247</td>
+                    <td><strong><a class="u text-light" href="https://calendar.google.com/calendar/embed?src=c094faa229f1ecac58cbebd579731b4f906a9fbb058644024affe1b4ab59264d%40group.calendar.google.com&ctz=Pacific%2FAuckland" class="navbar-brand">Roster</a></strong></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">002</th>
+                    <td>Elena</td>
+                    <td>Leonard</td>
+                    <td>022 457 8567</td>
+                    <td><strong><a class="u text-light" href="https://calendar.google.com/calendar/embed?src=bb6628de02a12e44c769253b864457eb29c63c896318aeb4b8138c8156a527ed%40group.calendar.google.com&ctz=Pacific%2FAuckland" class="navbar-brand">Roster</a></strong></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">003</th>
+                    <td>Steve</td>
+                    <td>Makin</td>
+                    <td>021 579 2490</td>
+                    <td><strong><a class="u text-light" href="https://calendar.google.com/calendar/embed?src=87d4f0c7bb9eafd200bc1fa5ac4aaaf6c4a5a1b2dcfdb6f54edd015ee6964e2c%40group.calendar.google.com&ctz=Pacific%2FAuckland" class="navbar-brand">Roster</a></strong></td>
+                  </tr>
+                </tbody>
+              </table>
+              </p>
           </div>
         </div>
       </div>
