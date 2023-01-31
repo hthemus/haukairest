@@ -1,1 +1,1 @@
-<?php include_once("protected.html"); ?>
+<?php include("protected.html"); ?>
