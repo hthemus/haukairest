@@ -1,4 +1,6 @@
-AuthType Basic
-AuthName  "Please enter your login details:"
-AuthUserFile  "/app/.htpasswd"
-Require valid-user
+<FilesMatch ".*">
+  AuthType Basic
+  AuthName  "Please enter your login details:"
+  AuthUserFile  "/app/.htpasswd"
+  Require valid-user
+</FilesMatch>
