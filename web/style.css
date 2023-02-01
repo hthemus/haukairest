@@ -12,7 +12,9 @@ body::before {
 }
 
 section::before {
-  height: 60px;
+  display:block;
+  content: '';
+  padding-top: 60px;
 }
 
 .table-booking-form {
