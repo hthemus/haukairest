@@ -1,21 +1,5 @@
-body::before {
-  display: block;
-  content: '';
-  height: 50px;
-}
-
-@media(min-width: 768px) {
-  .contact-form {
-    width: 100%;
-    height: 100%;
-  }
-}
-
 section::before {
   display:block;
   content: '';
   padding-top: 60px;
-}
-.table-booking-form {
-  height: 1000px;
 }
